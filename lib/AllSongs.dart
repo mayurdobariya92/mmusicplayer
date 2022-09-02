@@ -9,6 +9,9 @@ class AllSongs extends StatefulWidget {
   State<AllSongs> createState() => _AllSongsState();
 }
 
+////// Song play and stop code /////
+
+
 class _AllSongsState extends State<AllSongs> {
   AudioPlayer player = AudioPlayer();
   List<bool> statuslist = [];
